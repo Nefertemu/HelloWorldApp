@@ -16,26 +16,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hJc-NF-eg9">
-                                <rect key="frame" x="78" y="127" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="INJ-6y-VZx">
+                                <rect key="frame" x="20" y="74" width="374" height="369"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gew-Oh-wGa">
-                                <rect key="frame" x="87" y="574" width="240" height="128"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="95t-tL-UgS">
+                                <rect key="frame" x="20" y="473" width="374" height="369"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="hJc-NF-eg9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QN0-Pb-RSs"/>
-                            <constraint firstItem="Gew-Oh-wGa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QS7-Jq-xIu"/>
+                            <constraint firstItem="95t-tL-UgS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0Mz-ct-DKD"/>
+                            <constraint firstItem="INJ-6y-VZx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1UU-tA-mgL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="95t-tL-UgS" secondAttribute="trailing" constant="20" id="3JP-4K-NEd"/>
+                            <constraint firstItem="INJ-6y-VZx" firstAttribute="width" secondItem="95t-tL-UgS" secondAttribute="width" id="7nx-qU-Sdd"/>
+                            <constraint firstItem="95t-tL-UgS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="95p-cF-FOB"/>
+                            <constraint firstItem="INJ-6y-VZx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="P0L-54-T4G"/>
+                            <constraint firstItem="INJ-6y-VZx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fNM-aH-Qaz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="95t-tL-UgS" secondAttribute="bottom" constant="20" id="hdd-XL-4XE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="INJ-6y-VZx" secondAttribute="trailing" constant="20" id="qVT-A3-gEn"/>
+                            <constraint firstItem="INJ-6y-VZx" firstAttribute="height" secondItem="95t-tL-UgS" secondAttribute="height" id="s9N-FU-hD3"/>
+                            <constraint firstItem="95t-tL-UgS" firstAttribute="top" secondItem="INJ-6y-VZx" secondAttribute="bottom" constant="30" id="wJ1-Ix-6Ab"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="35" y="85"/>
+            <point key="canvasLocation" x="34.399999999999999" y="84.975369458128085"/>
         </scene>
     </scenes>
     <resources>
@@ -45,8 +54,8 @@
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
